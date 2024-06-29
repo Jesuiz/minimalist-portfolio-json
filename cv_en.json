@@ -1,0 +1,348 @@
+{
+  "basics": {
+    "name": "Jesús Ruiz",
+    "label": "Graphic Designer with +6 years of experience and Web Developer +2 years of experience",
+    "image": "/me.png",
+    "email": "jesuizmail@gmail.com",
+    "phone": "+51 935035069",
+    "url": "https://jesus-portfolio.vercel.app/",
+    "summary": "I have worked as a Graphic Designer for more than 6 years, specializing in Branding and Visual Identity. Now I focus on Web Development, accumulating +2 years of experience with real clients. I develop with Laravel and PHP, I also make well-optimized sites with Wordpress.",
+    "location": {
+      "address": "",
+      "postalCode": "00051",
+      "city": "Lima",
+      "countryCode": "PE",
+      "region": "Perú"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "jesuiz",
+        "url": "https://linkedin.com/in/jesuiz"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Jesuiz Design - Freelancer",
+      "position": "Graphic Designer & Web Developer",
+      "url": "https://jesuizdesign.com/",
+      "startDate": "2023-01-01",
+      "endDate": null,
+      "summary": "I execute digital solutions in Branding and Web Development internationally. Specifically Corporate Identity Design (Branding), Website Development, Ecommerce and Web Applications.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Clave Publicitaria - Printer's",
+      "position": "Manager, Graphic Designer & Web Developer",
+      "url": "https://clavepublicitaria.com",
+      "startDate": "2022-02-01",
+      "endDate": "2023-12-31",
+      "summary": "I started as business manager and promoted the integration of new digital services complementing the Printing, Gigantography and Merchandising services.",
+      "highlights": [
+      "Started the company"
+      ]
+    },
+    {
+      "name": "Geotop - Surveying Company",
+      "position": "Manager, Marketing Area",
+      "url": "https://geotop.pe/",
+      "startDate": "2021-03-01",
+      "endDate": "2021-12-01",
+      "summary": "I designed all the company's audiovisual material for digital and physical environments. I developed a new Website with Wordpress and optimized all the company's other websites. I managed all the company's graphic design, as well as the edition and transmission of the monthly Webinars.",
+      "highlights": [
+      "Started the company"
+      ]
+    },
+    {
+      "name": "Techno Global - Printer's",
+      "position": "Manager, Graphic Designer",
+      "url": "https://technoglobal.pe",
+      "startDate": "2018-04-01",
+      "endDate": "2021-12-31",
+      "summary": "I carried out designer activities related mainly to Advertising, Printing and Gigantography. After 6 months I led the advertising activities as Business Manager with 3 people in charge.",
+      "highlights": [
+      "Started the company"
+      ]
+    }
+  ],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "url": "https://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "Rodolfo Loero Arismendi Institute of Industrial Technology",
+    "url": "https://iutirlaoficial.com/",
+    "area": "Graphic Design Technician (Unfinished)",
+    "studyType": "Bachelor",
+    "startDate": "2012-02-01",
+    "endDate": "2015-02-01",
+    "score": "4.0",
+    "courses": [
+    "DB1101 - Basic SQL"
+    ]
+  }
+],
+  "courses": [{
+    "name": "EF Standard English Test: B2 Upper Intermediate",
+    "url": "https://cert.efset.org/iawRk2",
+    "platform": "EF SET | Score: 59/100",
+    "endDate": "2023"
+  },
+  {
+    "name": "REST API course with PHP and MySQL",
+    "url": "https://www.udemy.com/certificate/UC-31d0507c-7fd7-4378-b191-451e5ba13819/",
+    "platform": "Udemy",
+    "endDate": "2023"
+    },
+    {
+    "name": "Logical Thinking Course: Algorithms and Flowcharts",
+    "url": "https://platzi.com/p/JesuizDesign/curso/3221-pensamiento-logico/diploma/detalle/",
+    "platform": "Platzi",
+    "endDate": "2023"
+    },
+    {
+    "name": "PHP course with Laravel",
+    "url": "https://platzi.com/p/JesuizDesign/curso/1467-curso-php-laravel/diploma/detalle/",
+    "platform": "Platzi",
+    "endDate": "2023"
+    },
+    {
+    "name": "Introduction to PHP Frameworks Course",
+    "url": "https://platzi.com/p/JesuizDesign/curso/2033-php-frameworks/diploma/detalle/",
+    "platform": "Platzi",
+    "endDate": "2023"
+    },
+    {
+    "name": "REST API with PHP course",
+    "url": "https://platzi.com/p/JesuizDesign/curso/1638-api-rest/diploma/detalle/",
+    "platform": "Platzi",
+    "endDate": "2023"
+    },
+    {
+    "name": "PHP Basic Course: Installation, Fundamentals and Operators",
+    "url": "https://platzi.com/p/JesuizDesign/curso/2646-php/diploma/detalle/",
+    "platform": "Platzi",
+    "endDate": "2023"
+    },
+    {
+    "name": "Basic Computer and Informatics Course",
+    "url": "https://platzi.com/p/JesuizDesign/curso/2793-computacion-basica/diploma/detalle/",
+    "platform": "Platzi",
+    "endDate": "2023"
+    }
+],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Basic",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "PHP",
+      "level": "Basic",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "Laravel",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Basic",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "level": "Basic",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "jQuery",
+      "level": "Basic",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Basic",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Basic",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "AWS",
+      "level": "Basic",
+      "keywords": [
+        "Despliegues", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Wordpress",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Illustrator",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Photoshop",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Figma",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Diseño Responsive"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [
+    {
+      "name": "mars.codes",
+      "isActive": true,
+      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "highlights": [
+        "Elige tu propia aventura",
+        "En desarrollo"
+      ],
+      "url": "https://mars.codes"
+    },
+    {
+      "name": "AdventJS",
+      "isActive": true,
+      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "highlights": [
+        "+1 millón de visitas",
+        "Multidioma",
+        "JavaScript & TypeScript"
+      ],
+      "url": "https://adventjs.dev"
+    },
+    {
+      "name": "Codember",
+      "isActive": true,
+      "description": "Juego interactivo de programación con retos y secretos",
+      "highlights": [
+        "+2000 usuarios activos",
+        "Retos para cualquier lenguaje"
+      ],
+      "url": "https://codember.dev"
+    },
+    {
+      "name": "codi.link",
+      "isActive": true,
+      "description": "Playground de código HTML, CSS y JavaScript para compartir",
+      "highlights": [
+        "100k visitas al mes",
+        "Desarrollado por la comunidad"
+      ],
+      "url": "https://codi.link",
+      "github": "https://github.com/midudev/codi.link"
+    },
+    {
+      "name": "Pruebas Técnicas",
+      "isActive": true,
+      "description": "Lista de pruebas técnicas de empresas para practicar programación",
+      "highlights": [
+        "100% gratuito",
+        "+500 soluciones de la comunidad"
+      ],
+      "url": "https://pruebastecnicas.com",
+      "github": "https://github.com/midudev/pruebas-tecnicas"
+    },
+    {
+      "name": "miduConf",
+      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
+      "highlights": [
+        "+15k tickets repartidos",
+        "+50k espectadores en directo"
+      ],
+      "url": "https://miduconf.com"
+    }
+  ]
+}

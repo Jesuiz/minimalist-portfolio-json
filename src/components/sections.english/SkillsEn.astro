@@ -1,0 +1,93 @@
+---
+import { skills } from "cv_es.json"
+import Section from "../Section.astro"
+import HTML from "@/icons/html.astro"
+import CSS from "@/icons/css.astro"
+import JavaScript from "@/icons/javascript.astro"
+import TypeScript from "@/icons/type.astro"
+import React from "@/icons/react.astro"
+import Node from "@/icons/node.astro"
+import MySQL from "@/icons/sql.astro"
+import Git from "@/icons/git.astro"
+import GitHub from "@/icons/GitHub.astro"
+import Tailwind from "@/icons/tailwind.astro"
+import Bootstrap from "@/icons/bootstrap.astro"
+import jQuery from "@/icons/jquery.astro"
+import Next from "@/icons/next.astro"
+import Swift from "@/icons/swift.astro"
+import SwiftUI from "@/icons/swiftui.astro"
+import Kotlin from "@/icons/kotlin.astro"
+import Flutter from "@/icons/flutter.astro"
+import PHP from "@/icons/php.astro"
+import Laravel from "@/icons/laravel.astro"
+import AWS from "@/icons/aws.astro"
+import Wordpress from "@/icons/wordpress.astro"
+import Illustrator from "@/icons/illustrator.astro"
+import Photoshop from "@/icons/photoshop.astro"
+import Figma from "@/icons/figma.astro"
+
+const SKILLS_ICONS: Record<string, any> = {
+  HTML,
+  CSS,
+  JavaScript,
+  TypeScript,
+  React,
+  Node,
+  MySQL,
+  Git,
+  GitHub,
+  Next,
+  Tailwind,
+  Bootstrap,
+  jQuery,
+  Swift,
+  SwiftUI,
+  Kotlin,
+  Flutter,
+  PHP,
+  Laravel,
+  AWS,
+  Wordpress,
+  Illustrator,
+  Photoshop,
+  Figma,
+}
+---
+
+<Section title="Stack and Skills">
+  <ul>
+    {
+      skills.map(({ name }) => {
+        const iconName = name === "Bootstrap" ? "Bootstrap" : name
+        const Icon = SKILLS_ICONS[iconName]
+    
+        return (
+          <li>
+            {Icon && <Icon />} <span>{name}</span>
+          </li>
+        )
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    gap: 8px;
+  }
+
+  li {
+    align-items: center;
+    background: #eee;
+    border-radius: 6px;
+    color: black;
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 500;
+    gap: 4px;
+    padding: 0.2rem 0.6rem;
+  }
+</style>

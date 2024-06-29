@@ -1,0 +1,115 @@
+---
+import Section from "../Section.astro"
+import { courses } from "cv_es.json"
+---
+
+<Section title="Certificados">
+  <ul>
+    {
+      courses.map(
+        ({ name, url, platform, endDate }) => {
+          return (
+            <li>
+              <article>
+                <header>
+                  <h3>
+                    <a href={url} target="_blank" title={`Ver el proyecto ${name}`}>
+                      {name}
+                    </a>
+                  </h3>
+                  <p>{endDate}</p>
+                </header>
+                <footer>
+                    <p>{platform}</p>
+                </footer>
+              </article>
+            </li>
+          )
+        }
+      )
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 0.7rem;
+  }
+
+  article {
+    border-radius: 8px;
+    border: 1px solid #afafaf80;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    height: 100%;
+  }
+
+  article header {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  article h3 {
+    margin-bottom: 5px;
+    font-weight: 500;
+    padding-right: 20px;
+    font-size: 0.85rem;
+    line-height: 1rem;
+  }
+
+  article a {
+    color: #111;
+  }
+
+  article a:hover {
+    text-decoration: underline;
+  }
+
+  article p {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+
+  article h3 span {
+    color: rgb(0, 188, 47);
+    animation-name: flicker;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes flicker {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.25;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @media (width <= 700px) {
+    ul {
+      margin-inline: 0px;
+    }
+
+    article {
+      border: none;
+      box-shadow: 0 1px 1px #f2f2f2;
+      padding: 0 0 16px 0;
+    }
+  }
+
+  @media print {
+    article h3 span {
+      animation-name: none;
+    }
+  }
+</style>
