@@ -1,5 +1,5 @@
 ---
-import { skills } from "cv_es.json"
+import { skills } from "cv_en.json"
 import Section from "../Section.astro"
 import HTML from "@/icons/html.astro"
 import CSS from "@/icons/css.astro"
@@ -25,10 +25,18 @@ import Wordpress from "@/icons/wordpress.astro"
 import Illustrator from "@/icons/illustrator.astro"
 import Photoshop from "@/icons/photoshop.astro"
 import Figma from "@/icons/figma.astro"
+import Livewire from "@/icons/Livewire.astro"
+import Branding from "@/icons/Branding.astro"
+import SEO from "@/icons/Seo.astro"
+import Axios from "@/icons/Axios.astro"
+import Cloudflare from "@/icons/Cloudflare.astro"
+import API from "@/icons/API.astro"
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
   CSS,
+  PHP,
+  Laravel,
   JavaScript,
   TypeScript,
   React,
@@ -44,17 +52,21 @@ const SKILLS_ICONS: Record<string, any> = {
   SwiftUI,
   Kotlin,
   Flutter,
-  PHP,
-  Laravel,
   AWS,
   Wordpress,
   Illustrator,
   Photoshop,
   Figma,
+  Livewire,
+  Branding,
+  SEO,
+  Axios,
+  Cloudflare,
+  API
 }
 ---
 
-<Section title="Stack and Skills">
+<Section title="Technologies and Skills">
   <ul>
     {
       skills.map(({ name }) => {

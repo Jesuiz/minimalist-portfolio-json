@@ -3,23 +3,31 @@ import { basics } from "cv_es.json"
 import Section from "@/components/Section.astro"
 import Mail from "@/icons/Mail.astro"
 import Phone from "@/icons/Phone.astro"
+import Whatsapp from "@/icons/Whatsapp.astro"
+import Instagram from "@/icons/Instagram.astro"
 import LinkedIn from "@/icons/LinkedIn.astro"
 import X from "@/icons/X.astro"
 import GitHub from "@/icons/GitHub.astro"
 import WorldMap from "@/icons/WorldMap.astro"
 import type { SocialIcon } from "@/types"
 
-const { name, label, image, location, profiles, phone, email } = basics
+const { name, label, summary, summary_2, summary_3, image, location, profiles, phone, email } = basics
 const { city, region } = location
 
+const countryInfo = "Actualmente resido en "
+
 const SOCIAL_ICONS: SocialIcon = {
-  LinkedIn,
-  GitHub,
-  X,
+  LinkedIn,X,GitHub,Instagram,Whatsapp
 }
 
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
+const gitInfo = profiles.find(({ network }) => network === "GitHub")
+const instaInfo = profiles.find(({ network }) => network === "Instagram")
+const whaInfo = profiles.find(({ network }) => network === "Whatsapp")
 const linkedUrl = linkedInfo?.url
+const gitUrl = gitInfo?.url
+const instaUrl = instaInfo?.url
+const whaUrl = whaInfo?.url
 
 const printInfo = [phone, email, linkedUrl].filter(Boolean).join("  •  ")
 ---
@@ -29,13 +37,23 @@ const printInfo = [phone, email, linkedUrl].filter(Boolean).join("  •  ")
     <div class="info">
       <h1>{name}</h1>
       <h2>{label}</h2>
+
       <span>
+        {summary}
+        {summary_2}
+        {summary_3}
+      </span>
+      
+      <span class="country">
         <WorldMap />
+        {countryInfo}
         {city}, {region}
       </span>
+    
       <footer class="print">
         {printInfo}
       </footer>
+
       <footer class="no-print">
         {
           phone && (
@@ -78,11 +96,12 @@ const printInfo = [phone, email, linkedUrl].filter(Boolean).join("  •  ")
           })
         }
       </footer>
-    </div>
+  
+      <!-- </div>
     <figure>
       <img src={image} alt={name} />
     </figure>
-  </div>
+  </div> -->
 </Section>
 
 <style>
@@ -127,6 +146,10 @@ const printInfo = [phone, email, linkedUrl].filter(Boolean).join("  •  ")
     gap: 0.25rem;
     font-size: 0.85rem;
     letter-spacing: -0.05rem;
+  }
+
+  span.country {
+    margin-top: 5px;
   }
 
   .print {

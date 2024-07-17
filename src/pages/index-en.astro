@@ -6,8 +6,8 @@ import Education from "@/components/sections.english/EducationEn.astro"
 import Courses from "@/components/sections.english/CoursesEn.astro"
 import Experience from "@/components/sections.english/ExperienceEn.astro"
 import Hero from "@/components/sections.english/HeroEn.astro"
-import Projects from "@/components/sections.english/ProjectsEn.astro"
 import Skills from "@/components/sections.english/SkillsEn.astro"
+import Projects from "@/components/sections.english/ProjectsEn.astro"
 import KeyboardManager from "@/components/KeyboardManager.astro"
 
 import { basics } from "cv_en.json"
@@ -17,14 +17,11 @@ const { name, label } = basics
 <Layout title={`Portfolio de ${name} - ${label}`}>
   <main>
     <Hero />
-    <About />
+    <Skills />
     <Experience />
     <Education />
     <Courses />
-    <Skills />
   </main>
-
-  <KeyboardManager />
 </Layout>
 
 <style>
