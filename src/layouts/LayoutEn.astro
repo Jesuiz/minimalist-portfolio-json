@@ -39,9 +39,11 @@ const { image, summary, url } = basics;
     <meta name="twitter:description" content={summary} />
     <meta name="twitter:image" content="" />
   </head>
+
   <body>
     <slot />
   </body>
+
 </html>
 
 <style is:global>
@@ -89,6 +91,7 @@ const { image, summary, url } = basics;
   h4 {
     margin: 0;
     font-family:
+      "Poppins",
       system-ui,
       -apple-system,
       BlinkMacSystemFont,

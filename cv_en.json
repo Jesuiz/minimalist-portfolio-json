@@ -4,11 +4,10 @@
     "label": "Web Developer and Graphic Designer",
     "image": "/me.png",
     "email": "jesuizmail@gmail.com",
-    "phone": "+51 935035069",
-    "url": "https://jesus-portfolio.vercel.app/",
-    "summary": "I have experience executing the integral process of a real project, defining the Planning, Design, Development, Deployment and Maintenance of web applications.",
-    "summary_2": "Essentially I work with PHP + Laravel, although I also use other technologies such as JavaScript, TypeScript, React and NextJS.",
-    "summary_3": "Additionally, I have 6 years of experience as a Graphic Designer in different areas, specialized in Branding and Visual Identity, also have become a Marketing Mnager.",
+    "phone": "+51 935 035 069",
+    "url": "jesus-portfolio.vercel.app",
+    "summary": "I am a Junior Full Stack Developer with 2 years of experience in PHP and Laravel, and basic knowledge of frontend technologies such as JavaScript, React, Astro and NextJS. I have experience in deploying applications on various platforms, which allows me to manage projects comprehensively.",
+    "summary_2": "In addition, I have 6 years of experience as a Senior Graphic Designer, specialized in Visual Identity. This combination of skills allows me to contribute in all phases of the project: from the design of visual prototypes, through backend and frontend development, to deployment and maintenance.",
     "location": {
       "address": "",
       "postalCode": "00000",
@@ -18,6 +17,11 @@
     },
     "profiles": [
       {
+        "network": "Whatsapp",
+        "username": "Jesuiz",
+        "url": "https://api.whatsapp.com/send/?phone=51935035069"
+      },
+      {
         "network": "LinkedIn",
         "username": "jesuiz",
         "url": "linkedin.com/in/jesuiz"
@@ -26,16 +30,6 @@
         "network": "GitHub",
         "username": "Jesuiz",
         "url": "https://github.com/Jesuiz"
-      },
-      {
-        "network": "Instagram",
-        "username": "jesuiz.design",
-        "url": "https://www.instagram.com/jesuiz.design/"
-      },
-      {
-        "network": "Whatsapp",
-        "username": "Jesuiz",
-        "url": "https://api.whatsapp.com/send/?phone=51935035069"
       }
     ]
   },
