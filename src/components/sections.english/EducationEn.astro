@@ -4,7 +4,7 @@ import Section from "../Section.astro";
 import { education } from "cv_en.json";
 ---
 
-<Section title="Educación">
+<Section title="Education">
   <ul>
     {
       education.map(({ institution, institution_2, startDate, endDate, area, type, url}) => {
@@ -21,7 +21,7 @@ import { education } from "cv_en.json";
                   <a
                     href={url}
                     target="_blank"
-                    title={`Ver web del insituto ${institution}`}
+                    title={`View institute website`}
                   >
                   <h3>{type}</h3>
                   <p>{area}</p>

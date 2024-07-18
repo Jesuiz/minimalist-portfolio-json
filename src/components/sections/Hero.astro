@@ -45,7 +45,7 @@ const gitUrl = gitInfo?.url;
 const instaUrl = instaInfo?.url;
 const whaUrl = whaInfo?.url;
 
-const printInfo = [phone, email, linkedUrl].filter(Boolean).join("  •  ");
+const printInfo = [phone, email, 'linkedin.com/in/jesuiz'].filter(Boolean).join("  •  ");
 ---
 
 <Section>
@@ -64,7 +64,10 @@ const printInfo = [phone, email, linkedUrl].filter(Boolean).join("  •  ");
       </div>
 
       <span class="portfolio">
-        <Portfolio /> Visita mi portfolio: {url}
+        <Portfolio /> Visita mi portafolio:
+        <a href={url} target="_blank" title={`Ver porfatolio`}>
+          <p>{url}</p>
+        </a>
       </span>
 
       <span class="country">
@@ -78,7 +81,7 @@ const printInfo = [phone, email, linkedUrl].filter(Boolean).join("  •  ");
       </footer>
 
       <footer class="no-print">
-<!--         {
+        <!--         {
           phone && (
             <a
               href={`tel:${phone}`}
@@ -94,7 +97,7 @@ const printInfo = [phone, email, linkedUrl].filter(Boolean).join("  •  ");
           email && (
             <a
               href={`mailto:${email}`}
-              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+              title={`Enviar un correo electrónico a ${name}`}
               target="_blank"
               rel="noopener noreferrer"
             >
