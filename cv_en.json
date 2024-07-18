@@ -102,7 +102,7 @@
     {
       "institution": "U.E.C. Juan de Dios Andrade",
       "institution_2": "C.P. Ignacio Martín Burk",
-      "url": "https://ebeloisafonseca.blogspot.com/",
+      "url": "https://cimb.edu.ve/",
       "area": "Valera, Trujillo, Venezuela",
       "type": "Complete Secondary School"
     },
@@ -111,8 +111,8 @@
       "url": "https://iutirlaoficial.com/",
       "area": "Valera, Trujillo, Venezuela",
       "type": "Graphic Design Technician",
-      "startDate": "2012-02-01",
-      "endDate": "2015-02-01"
+      "startDate": "2015-02-01",
+      "endDate": "2017-11-29"
     }
   ],
   "courses": [
@@ -283,16 +283,6 @@
         "Desarrollo Web",
         "Frontend",
         "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "Axios",
-      "level": "Basic",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "Fullstack"
       ]
     },
     {
