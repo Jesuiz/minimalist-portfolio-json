@@ -18,11 +18,11 @@ import { work } from "cv_en.json"
               <article>
                 <header>
                   <div>
-                    <h3>
+                    <h2>
                       <a href={url} title={`View company website`} target="_blank">
                         {name}
                       </a>
-                    </h3>
+                    </h2>
                     <h4>{position}</h4>
                   </div>
 
@@ -57,7 +57,12 @@ import { work } from "cv_en.json"
   ul {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
+  }
+  
+  article h2 a {
+    color: #555;
+    font-size: 1.1rem;
   }
 
   article h3 {
@@ -74,15 +79,15 @@ import { work } from "cv_en.json"
   }
 
   article h4 {
-    color: #222;
-    font-weight: 400;
+    color: #555;
+    font-size: 0.95rem;
+    font-weight: 500;
   }
 
   header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 4px;
   }
 
   time {
@@ -104,7 +109,6 @@ import { work } from "cv_en.json"
     background-color: #333;
     color: #fff;
     font-size: .75rem;
-    font-family: Menlo, Monaco, Lucida Console, "Courier New", monospace;;
     position: absolute;
     padding: .2rem .5rem;
     bottom: -1.4rem;
