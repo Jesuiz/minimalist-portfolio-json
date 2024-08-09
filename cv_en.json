@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Jesús Ruiz",
-    "label": "Web Developer and Graphic Designer",
+    "label": "Junior Full Stack Developer and Senior Graphic Designer",
     "image": "/me.png",
     "email": "jesuizmail@gmail.com",
     "phone": "+51 935 035 069",
@@ -36,22 +36,22 @@
   "work": [
     {
       "name": "Jesuiz Design - Freelancer",
-      "position": "Graphic Designer & Web Developer",
+      "position": "Full Stack Developer and Graphic Designer",
       "url": "https://jesuizdesign.com/",
       "startDate": "2023-01-01",
       "endDate": "2024-03-01",
-      "summary": "I execute digital solutions in Branding and Web Development internationally. Specifically Corporate Identity Design (Branding), Website Development, Ecommerce and Web Applications.",
+      "summary": "I implemented digital solutions in Web Development and Branding for businesses located in Peru, Puerto Rico and the USA. The services covered Visual Identity Design as well as Website Development, Ecommerce and Web Applications.",
       "highlights": [
         "Started the company"
       ]
     },
     {
       "name": "Clave Publicitaria - Printer's",
-      "position": "Manager, Graphic Designer & Web Developer",
+      "position": "Full Stack Developer and Graphic Designer",
       "url": "https://clavepublicitaria.com",
       "startDate": "2022-02-01",
       "endDate": "2023-12-31",
-      "summary": "I started as business manager and promoted the integration of new digital services complementing the Printing, Gigantography and Merchandising services.",
+      "summary": "As business manager, I managed to integrate new digital services to address a new unexplored market, where I executed Visual Identity Design and Website Development services, complementing the already established services of Printing, Gigantography and Merchandising.",
       "highlights": [
         "Started the company"
       ]
@@ -110,7 +110,7 @@
       "institution": "Rodolfo Loero Arismendi Institute of Industrial Technology",
       "url": "https://iutirlaoficial.com/",
       "area": "Valera, Trujillo, Venezuela",
-      "type": "Graphic Design Technician",
+      "type": "University Technician in Graphic Design",
       "startDate": "2015-02-01",
       "endDate": "2017-11-29"
     }
@@ -220,6 +220,16 @@
     },
     {
       "name": "Laravel",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "FilamentPHP",
       "level": "Avanzado",
       "keywords": [
         "Desarrollo Web",
