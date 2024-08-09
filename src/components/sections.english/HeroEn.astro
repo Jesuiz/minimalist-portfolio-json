@@ -45,7 +45,7 @@ const gitUrl = gitInfo?.url;
 const instaUrl = instaInfo?.url;
 const whaUrl = whaInfo?.url;
 
-const printInfo = [phone, email, 'linkedin.com/in/jesuiz'].filter(Boolean).join("  •  ");
+const printInfo = [phone, email, 'linkedin.com/in/jesuiz', 'github.com/Jesuiz',].filter(Boolean).join(" • ");
 ---
 
 <Section>
@@ -63,9 +63,13 @@ const printInfo = [phone, email, 'linkedin.com/in/jesuiz'].filter(Boolean).join(
         </span>
       </div>
 
+      <span class="print">
+        {printInfo}
+      </span>
+
       <span class="portfolio">
-        <Portfolio /> Visit mi portfolio:
-        <a href={'https://jesus-portfolio.vercel.app'} target="_blank" title={`View porftolio`}>
+        <Portfolio /> Visita mi portafolio:
+        <a href={'https://jesus-portfolio.vercel.app'} target="_blank" title={`Ver porfatolio`}>
           <p>{url}</p>
         </a>
       </span>
@@ -75,10 +79,6 @@ const printInfo = [phone, email, 'linkedin.com/in/jesuiz'].filter(Boolean).join(
         {countryInfo}
         {city}, {region}
       </span>
-
-      <footer class="print">
-        {printInfo}
-      </footer>
 
       <footer class="no-print">
 <!--         {
@@ -151,11 +151,6 @@ const printInfo = [phone, email, 'linkedin.com/in/jesuiz'].filter(Boolean).join(
       }
 
 
-      .portfolio,
-      .country {
-        font-weight: 500;
-      }
-
       h1 {
         font-size: 2rem;
         font-weight: 800;
@@ -183,13 +178,20 @@ const printInfo = [phone, email, 'linkedin.com/in/jesuiz'].filter(Boolean).join(
         font-size: 0.85rem;
       }
 
-      span.country {
-        margin-top: 5px;
-      }
 
       .print {
         font-size: 0.85rem;
-        letter-spacing: -0.05rem;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+
+      .portfolio,
+      .country {
+        font-weight: 600;
+      }
+
+      span.country {
+        margin-top: 8px;
       }
 
       footer {
