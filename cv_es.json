@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Jesús Ruiz",
-    "label": "Desarrollador Full Stack Junior y Diseñador Gráfico Senior",
+    "label": "Desarrollador Full Stack y Diseñador Gráfico",
     "image": "/me.png",
     "email": "jesuizmail@gmail.com",
     "phone": "+51 935 035 069",
@@ -47,7 +47,7 @@
     },
     {
       "name": "Clave Publicitaria",
-      "position": "Desarrollador Full Stack y Diseñador Gráfico",
+      "position": "Desarrollador Wordpress y Diseñador Gráfico",
       "url": "https://clavepublicitaria.com",
       "startDate": "2022-02-01",
       "endDate": "2023-12-31",
@@ -69,7 +69,7 @@
     },
     {
       "name": "Techno Global",
-      "position": "Diseñador Gráfico",
+      "position": "Encargado, Diseñador Gráfico",
       "url": "https://technoglobal.pe",
       "startDate": "2018-04-01",
       "endDate": "2021-12-31",
@@ -259,7 +259,37 @@
       ]
     },
     {
-      "name": "TypeScript",
+      "name": "Next",
+      "level": "Basic",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Basic",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Basic",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "Selenium",
       "level": "Basic",
       "keywords": [
         "Desarrollo Web",
@@ -341,6 +371,16 @@
         "Colaboración",
         "Código Fuente",
         "Git"
+      ]
+    },
+    {
+      "name": "Postman",
+      "level": "Basic",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
       ]
     },
     {

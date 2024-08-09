@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Jesús Ruiz",
-    "label": "Junior Full Stack Developer and Senior Graphic Designer",
+    "label": "Full Stack Developer and Graphic Designer",
     "image": "/me.png",
     "email": "jesuizmail@gmail.com",
     "phone": "+51 935 035 069",
@@ -35,8 +35,8 @@
   },
   "work": [
     {
-      "name": "Jesuiz Design - Freelancer",
-      "position": "Full Stack Developer and Graphic Designer",
+      "name": "Jesuiz Design",
+      "position": "Full Stack Developer & Graphic Designer",
       "url": "https://jesuizdesign.com/",
       "startDate": "2023-01-01",
       "endDate": "2024-03-01",
@@ -46,8 +46,8 @@
       ]
     },
     {
-      "name": "Clave Publicitaria - Printer's",
-      "position": "Full Stack Developer and Graphic Designer",
+      "name": "Clave Publicitaria",
+      "position": "Wordpress Developer & Graphic Designer",
       "url": "https://clavepublicitaria.com",
       "startDate": "2022-02-01",
       "endDate": "2023-12-31",
@@ -57,8 +57,8 @@
       ]
     },
     {
-      "name": "Geotop - Surveying Company",
-      "position": "Manager, Marketing Area",
+      "name": "Geotop",
+      "position": "Wordpress Developer & Graphic Designer",
       "url": "https://geotop.pe/",
       "startDate": "2021-03-01",
       "endDate": "2021-12-01",
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "name": "Techno Global - Printer's",
-      "position": "Manager, Graphic Designer",
+      "name": "Techno Global",
+      "position": "Manager & Graphic Designer",
       "url": "https://technoglobal.pe",
       "startDate": "2018-04-01",
       "endDate": "2021-12-31",
@@ -259,7 +259,37 @@
       ]
     },
     {
-      "name": "TypeScript",
+      "name": "Next",
+      "level": "Basic",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Basic",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Basic",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "Selenium",
       "level": "Basic",
       "keywords": [
         "Desarrollo Web",
@@ -341,6 +371,16 @@
         "Colaboración",
         "Código Fuente",
         "Git"
+      ]
+    },
+    {
+      "name": "Postman",
+      "level": "Basic",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
       ]
     },
     {
