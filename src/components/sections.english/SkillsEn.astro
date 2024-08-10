@@ -34,6 +34,7 @@ import API from "@/icons/API.astro"
 import FilamentPHP from "@/icons/FilamentPHP.astro"
 import Python from "@/icons/Python.astro"
 import Selenium from "@/icons/Selenium.astro"
+import AstroIcon from "@/icons/AstroIcon.astro"
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
@@ -68,7 +69,8 @@ const SKILLS_ICONS: Record<string, any> = {
   API,
   FilamentPHP,
   Python,
-  Selenium
+  Selenium,
+  AstroIcon,
 }
 ---
 
@@ -76,7 +78,7 @@ const SKILLS_ICONS: Record<string, any> = {
   <ul>
     {
       skills.map(({ name }) => {
-        const iconName = name === "Bootstrap" ? "Bootstrap" : name
+        const iconName = name === "Astro" ? "AstroIcon" : name
         const Icon = SKILLS_ICONS[iconName]
     
         return (

@@ -259,7 +259,7 @@
       ]
     },
     {
-      "name": "Next",
+      "name": "React",
       "level": "Basic",
       "keywords": [
         "Desarrollo Web",
@@ -269,7 +269,17 @@
       ]
     },
     {
-      "name": "React",
+      "name": "Astro",
+      "level": "Basic",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "Next",
       "level": "Basic",
       "keywords": [
         "Desarrollo Web",
