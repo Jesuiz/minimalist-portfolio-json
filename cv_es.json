@@ -69,11 +69,11 @@
     },
     {
       "name": "Techno Global",
-      "position": "Encargado, Diseñador Gráfico",
+      "position": "Diseñador Gráfico y Supervisor",
       "url": "https://technoglobal.pe",
       "startDate": "2018-04-01",
       "endDate": "2021-12-31",
-      "summary": "Ejecuté actividades de diseñador relacionadas principalmente a la Publicidad, Imprenta y Gigantografía. Luego de 6 meses lideré las actividades publicitarias como Encargado del negocio con 3 personas a cargo.",
+      "summary": "Ejecuté actividades de diseñador relacionadas principalmente con Redes Sociales, Publicidad, Imprenta y Gigantografía. Luego de 6 meses lideré las actividades como Supervisor del negocio con 3 personas a cargo.",
       "highlights": [
         "Started the company"
       ]
@@ -110,7 +110,8 @@
       "institution": "Instituto de Tecnología Industrial Rodolfo Loero Arismendi",
       "url": "https://iutirlaoficial.com/",
       "area": "Valera, Trujillo, Venezuela",
-      "type": "Técnico Universitario en Diseño Gráfico",
+      "type": "Técnico Universitario",
+      "type2": "en Diseño Gráfico",
       "startDate": "2015-02-01",
       "endDate": "2017-11-29"
     }

@@ -7,7 +7,7 @@ import { education } from "cv_en.json";
 <Section title="Education">
   <ul>
     {
-      education.map(({ institution, institution_2, startDate, endDate, area, type, url}) => {
+      education.map(({ institution, institution_2, startDate, endDate, area, type, type2, url}) => {
         const startYear = startDate != null ? new Date(startDate).getFullYear() : "";
         const endYear = endDate != null ? new Date(endDate).getFullYear() : "";
 
@@ -24,6 +24,7 @@ import { education } from "cv_en.json";
                     title={`View institute website`}
                   >
                   <h3>{type}</h3>
+                  <h3>{type2}</h3>
                   </a>
                   <p>{area}</p>
                 </h3>
