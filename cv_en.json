@@ -6,8 +6,8 @@
     "email": "jesuizmail@gmail.com",
     "phone": "+51 935 035 069",
     "url": "jesus-portfolio.vercel.app",
-    "summary": "I am a Junior Full Stack Developer with 2 years of experience in PHP and Laravel, and basic knowledge of frontend technologies such as JavaScript, React, Astro and NextJS. I have experience in deploying applications on various platforms, which allows me to manage projects comprehensively.",
-    "summary_2": "In addition, I have 6 years of experience as a Senior Graphic Designer, specialized in Visual Identity. This combination of skills allows me to contribute in all phases of the project: from the design of visual prototypes, through backend and frontend development, to deployment and maintenance.",
+    "summary": "I have 2 years of experience as a Junior Full Stack Developer, building web applications with PHP and Laravel, and with mastery of the TALL stack (Tailwind, AlpineJS, Laravel, Livewire). I specialize in developing complete and scalable solutions that combine a robust backend with dynamic and reactive user interfaces. I also have 3 years of experience carrying out projects with WordPress, which allows me to offer solutions for both simple websites and complex, custom applications.",
+    "summary_2": "As a Senior Graphic Designer, with more than 6 years of experience, I use Figma for the creation and prototyping of interfaces, ensuring that each design is visually coherent and easy to use. My approach to Visual Identity and Branding design ensures that the graphic solutions I develop perfectly align with the client's needs, offering an integrated visual experience from concept to implementation.",
     "location": {
       "address": "",
       "postalCode": "00000",
@@ -36,7 +36,7 @@
   "work": [
     {
       "name": "Jesuiz Design",
-      "position": "Full Stack Developer & Graphic Designer",
+      "position": "Developer and Graphic Designer",
       "url": "https://jesuizdesign.com/",
       "startDate": "2023-01-01",
       "endDate": "2024-03-01",
@@ -47,7 +47,7 @@
     },
     {
       "name": "Clave Publicitaria",
-      "position": "Wordpress Developer & Graphic Designer",
+      "position": "Developer and Graphic Designer",
       "url": "https://clavepublicitaria.com",
       "startDate": "2022-02-01",
       "endDate": "2023-12-31",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Geotop",
-      "position": "Wordpress Developer & Graphic Designer",
+      "position": "Developer, Designer and Marketer",
       "url": "https://geotop.pe/",
       "startDate": "2021-03-01",
       "endDate": "2021-12-01",
@@ -69,7 +69,7 @@
     },
     {
       "name": "Techno Global",
-      "position": "Graphic Designer & Supervisor",
+      "position": "Graphic Designer and Supervisor",
       "url": "https://technoglobal.pe",
       "startDate": "2018-04-01",
       "endDate": "2021-12-31",
@@ -115,56 +115,138 @@
       "startDate": "2015-02-01",
       "endDate": "2017-11-29"
     }
-  ],
-  "courses": [
-    {
-      "name": "EF Standard English Test: B2 Upper Intermediate",
-      "url": "https://cert.efset.org/iawRk2",
-      "platform": "EF SET | Score: 59/100",
-      "endDate": "2023"
-    },
-    {
-      "name": "REST API course with PHP and MySQL",
-      "url": "https://www.udemy.com/certificate/UC-31d0507c-7fd7-4378-b191-451e5ba13819/",
-      "platform": "Udemy",
-      "endDate": "2023"
-    },
-    {
-      "name": "Logical Thinking Course: Algorithms and Flowcharts",
-      "url": "https://platzi.com/p/JesuizDesign/curso/3221-pensamiento-logico/diploma/detalle/",
-      "platform": "Platzi",
-      "endDate": "2023"
-    },
-    {
-      "name": "PHP course with Laravel",
-      "url": "https://platzi.com/p/JesuizDesign/curso/1467-curso-php-laravel/diploma/detalle/",
-      "platform": "Platzi",
-      "endDate": "2023"
-    },
-    {
-      "name": "Introduction to PHP Frameworks Course",
-      "url": "https://platzi.com/p/JesuizDesign/curso/2033-php-frameworks/diploma/detalle/",
-      "platform": "Platzi",
-      "endDate": "2023"
-    },
-    {
-      "name": "REST API with PHP course",
-      "url": "https://platzi.com/p/JesuizDesign/curso/1638-api-rest/diploma/detalle/",
-      "platform": "Platzi",
-      "endDate": "2023"
-    },
-    {
-      "name": "Installation, Fundamentals and Operators of PHP",
-      "url": "https://platzi.com/p/JesuizDesign/curso/2646-php/diploma/detalle/",
-      "platform": "Platzi",
-      "endDate": "2023"
-    },
-    {
-      "name": "Basic Computer and Informatics Course",
-      "url": "https://platzi.com/p/JesuizDesign/curso/2793-computacion-basica/diploma/detalle/",
-      "platform": "Platzi",
-      "endDate": "2023"
-    }
+  ],"courses": [
+  {
+  "name": "Definitive HTML and CSS Course",
+  "url": "https://platzi.com/p/JesuizDesign/curso/2008-html-css/diploma/detalle/",
+  "platform": "Platzi",
+  "endDate": "2024",
+  "content": "7",
+  "practice": "16",
+  "description":"Learn HTML and CSS from scratch, without prior knowledge."
+  },
+  {
+  "name": "Practical HTML and CSS Course",
+  "url": "https://platzi.com/p/JesuizDesign/curso/1758-html-practico/diploma/detalle/",
+  "platform": "Platzi",
+  "endDate": "2024",
+  "content": "2",
+  "practice": "14",
+  "description":"Put into practice everything you know about HTML and CSS."
+  },
+  {
+  "name": "Tailwind 2 and 3 Basic Course",
+  "url": "https://platzi.com/p/JesuizDesign/curso/2702-tailwind/diploma/detalle/",
+  "platform": "Platzi",
+  "endDate": "2024",
+  "content": "4",
+  "practice": "16",
+  "description":"You will learn Tailwind CSS to speed up the development of your projects."
+  },
+  {
+  "name": "Web Optimization Course",
+  "url": "https://platzi.com/p/JesuizDesign/curso/1973-web-performance/diploma/detalle/",
+  "platform": "Platzi",
+  "endDate": "2024",
+  "content": "7",
+  "practice": "20",
+  "description":"Techniques and tools to improve the performance of your web applications."
+  },
+  {
+  "name": "Professional Git and GitHub Course",
+  "url": "https://platzi.com/p/JesuizDesign/curso/1557-git-github/diploma/detalle/",
+  "platform": "Platzi",
+  "endDate": "2024",
+  "content": "6",
+  "practice": "16",
+  "description":"Learn to work with Git and Github."
+  },
+  {
+  "name": "Development and Deployment Environments in WordPress",
+  "url": "https://platzi.com/p/JesuizDesign/course/2602-course/diploma/detalle/",
+  "platform": "Platzi",
+  "endDate": "2024",
+  "content": "2",
+  "practice": "8",
+  "description":"Environment and deploy with Wordpress."
+  },
+  {
+  "name": "Professional WordPress Course",
+  "url": "https://platzi.com/p/JesuizDesign/curso/1779-wordpress-profesional/diploma/detalle/",
+  "platform": "Platzi",
+  "endDate": "2024",
+  "content": "4",
+  "practice": "14",
+  "description":"Learn more about WordPress and its use from a perspective as a framework."
+  },
+  { "name": "EF Standard English Test",
+  "url": "https://cert.efset.org/iawRk2",
+  "platform": "EF SET", "endDate": "2023",
+  "content" : null,
+  "practice": null,
+  "description": "The level reached is 59/100, which corresponds to B2 Upper Intermediate."
+  },
+  { "name": "REST API course with PHP and MySQL",
+  "url": "https://www.udemy.com/certificate/UC-31d0507c-7fd7-4378-b191-451e5ba13819/",
+  "platform": "Udemy",
+  "endDate": "2023",
+  "content": "1.5",
+  "practice": "6",
+  "description": "Create a Rest API with PHP and MySQL."
+  },
+  {
+  "name": "Logical Thinking, Algorithms and Diagrams Course",
+  "url": "https://platzi.com/p/JesuizDesign/course/3221-logical-thinking/diploma/detalle/",
+  "platform": "Platzi",
+  "endDate": "2023",
+  "content": "2",
+  "practice": "10",
+  "description":"Fundamentals: binary system, flowcharts and more."
+  },
+  {
+  "name": "PHP Course with Laravel",
+  "url": "https://platzi.com/p/JesuizDesign/course/1467-php-course-laravel/diploma/detalle/",
+  "platform": "Platzi",
+  "endDate": "2023",
+  "content": "3",
+  "practice": "16",
+  "description":"Develop custom web applications with PHP and the framework for artisans the web: Laravel."
+  },
+  {
+  "name": "Introduction to PHP Frameworks Course",
+  "url": "https://platzi.com/p/JesuizDesign/course/2033-php-frameworks/diploma/detalle/",
+  "platform": "Platzi",
+  "endDate": "2023",
+  "content": "1",
+  "practice": "2",
+  "description":"Structure, patterns and good practices of backend development frameworks."
+  },
+  {
+  "name": "REST API Course with PHP",
+  "url": "https://platzi.com/p/JesuizDesign/course/1638-api-rest/diploma/detalle/",
+  "platform" : "Platzi",
+  "endDate": "2023",
+  "content": "2",
+  "practice": "16",
+  "description":"Learn how to configure and implement REST services, including authentication and error handling, with PHP."
+  },
+  {
+  "name": "PHP Installation, Fundamentals and Operators",
+  "url": "https://platzi.com/p/JesuizDesign/curso/2646-php/diploma/detalle/",
+  "platform": "Platzi",
+  "endDate": "2023",
+  "content": "4",
+  "practice": "14",
+  "description":"Learn PHP, the backend language present in 80% of websites." },
+  {
+  "name": "Basic Computer and IT Course",
+  "url": "https://platzi.com/p/JesuizDesign/curso/2793-computacion-basica/diploma/detalle/",
+  "platform" : "Platzi",
+  "endDate": "2023",
+  "content": "4",
+  "practice": "10",
+  "description":"Learn the essentials of your computer: systems, files, programs, and more. "
+  }
   ],
   "awards": [
     {
@@ -210,6 +292,14 @@
       ]
     },
     {
+      "name": "Wordpress",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Diseño Responsive"
+      ]
+    },
+    {
       "name": "PHP",
       "level": "Basic",
       "keywords": [
@@ -250,37 +340,17 @@
       ]
     },
     {
+      "name": "AlpineJS",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
       "name": "JavaScript",
-      "level": "Basic",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Basic",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
-    },
-    {
-      "name": "Astro",
-      "level": "Basic",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
-    },
-    {
-      "name": "Next",
       "level": "Basic",
       "keywords": [
         "Desarrollo Web",
@@ -392,14 +462,6 @@
         "Frontend",
         "Backend",
         "Fullstack"
-      ]
-    },
-    {
-      "name": "Wordpress",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web",
-        "Diseño Responsive"
       ]
     },
     {
