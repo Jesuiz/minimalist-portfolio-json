@@ -8,7 +8,7 @@ import { work } from "cv_en.json"
   <ul>
     {
       work.map(
-        ({ name, startDate, endDate, position, summary, highlights, url }) => {
+        ({ name, startDate, endDate, position, summary, totalTime, highlights, url }) => {
           const startYear = new Date(startDate).getFullYear()
           const endYear =
             endDate != null ? new Date(endDate).getFullYear() : "Current"
@@ -19,9 +19,7 @@ import { work } from "cv_en.json"
                 <header>
                   <div>
                     <h2>
-                      <a href={url} title={`View company website`} target="_blank">
-                        {name}
-                      </a>
+                      <p>{name}</p>
                     </h2>
                     <h4>{position}</h4>
                   </div>
@@ -37,6 +35,11 @@ import { work } from "cv_en.json"
                       datetime={endDate}
                       data-title={endDate}>
                         {endYear}
+                    </time>
+                    <time
+                      datetime={startDate}
+                      data-title={startDate}>
+                      {totalTime}
                     </time>
                   </div>
                 </header>
@@ -60,8 +63,14 @@ import { work } from "cv_en.json"
     gap: 10px;
   }
   
-  article h2 a {
-    color: #222;
+  article p {
+    font-size: 0.85rem;
+    padding-top: 10px;
+    color: #666;
+  }
+
+  article h2 p {
+    color: #111;
     font-size: 1.1rem;
   }
 
@@ -70,19 +79,14 @@ import { work } from "cv_en.json"
     color: #111;
   }
 
-  article a {
-    color: #111;
-  }
-
   article a:hover {
     text-decoration: underline;
   }
 
   article h4 {
-    color: #555;
-    font-size: 0.95rem;
+    color: #111;
+    font-size: 0.85rem;
     font-weight: 500;
-    padding-bottom: 6px;
   }
 
   header {
