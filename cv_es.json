@@ -1,13 +1,14 @@
 {
   "basics": {
     "name": "Jesús Ruiz",
-    "label": "Desarrollador Full Stack",
+    "label": "Desarrollador Frontend",
     "image": "/me.png",
     "email": "jesuizmail@gmail.com",
     "phone": "+51 935 035 069",
     "url": "portfolio.jesuizdesign.com",
-    "summary": "Hola, soy Desarrollador Web Full Stack Junior con 2 años de experiencia y especialidad en el frontend. Mi formación académica en diseño gráfico me facilita crear interfaces atractivas y funcionales utilizando React, Next.js, CSS, Tailwind. Complemento estas habilidades con conocimientos de backend en PHP, Laravel y CodeIgniter, lo que me permite trabajar con APIs, bases de datos y arquitectura MVC. Esta versatilidad me permite participar en diferentes aspectos del desarrollo, desde el diseño de la interfaz hasta la implementación de funcionalidades en el servidor.",
-    "summary_2": "Complemento mi perfil técnico con sólidas habilidades en diseño gráfico, desarrollo ágil y experiencia con WordPress. Domino Figma para la creación de interfaces y prototipos, asegurando que cada proyecto mantenga coherencia visual y usabilidad. Con 4 años de experiencia en WordPress, puedo implementar rápidamente landing pages ideales para propósitos de marketing. Esta versatilidad me permite abordar proyectos combinando diseño atractivo con funcionalidad técnica precisa.",
+    "summary": "Soy un Desarrollador Frontend con más de 2 años de experiencia creando interfaces atractivas y funcionales con React, Next.js, CSS y Tailwind. Lo que me diferencia es mi ojo de diseñador, gracias a mi formación técnica y más de 6 años de experiencia como Diseñador Gráfico, lo que me permite desarrollar productos con una estética pulida, alineada con principios de UX/UI y coherencia visual.",
+    "summary_2": "Además, tengo experiencia en automatización de procesos con herramientas como Make, Zapier y n8n, lo que me permite optimizar flujos de trabajo y mejorar la eficiencia en la integración entre frontend, backend y APIs. Aunque mi enfoque principal es el desarrollo frontend, también he trabajado con PHP y Laravel, lo que me ha permitido comprender mejor la lógica del servidor y colaborar en proyectos que requieren una integración más profunda.",
+    "summary_3": "También cuento con experiencia en marketing digital y WordPress, lo que me permite desarrollar MVPs de manera rápida para campañas publicitarias y validación de productos. Gracias a mi combinación de diseño, desarrollo y automatización, puedo abordar proyectos desde una perspectiva integral, creando soluciones eficientes, escalables y visualmente impactantes.",
     "location": {
       "address": "",
       "postalCode": "00000",
@@ -38,48 +39,48 @@
       "name": "Paqari Software",
       "position": "Desarrollador Frontend",
       "url": "https://paqari.pe/",
-      "startDate": "2024-1-01",
-      "endDate": "2024-8-01",
-      "totalTime": "[10 meses]",
-      "summary": "Trabajé en el frontend de la página web con su API (React, NextJS, SCSS, PHP, Axios, SQL) y mantenimiento de la aplicacion web (PHP, CodeIgniter, SQL). Desarrollé procesos de captación con envío de datos a una API y conexiones a Hubspot. Implementé landing pages (Wordpress) para promociones de marketing.",
+      "startDate": "2024-5-01",
+      "endDate": "2025-2-28",
+      "totalTime": "(10 meses)",
+      "summary": "Trabajé en el frontend de la página web con su API (React, NextJS, SCSS, Axios) y mantenimiento de la aplicacion web (PHP, CodeIgniter, SQL). Desarrollé procesos de captación con envío de datos a una API y conexiones a Hubspot. Implementé landing pages (Wordpress) para promociones de marketing.",
       "highlights": [
-        "Started the company"
+        ""
       ]
     },
     {
       "name": "Jesuiz Design",
-      "position": "Desarrollador Fullstack y Diseñador Gráfico",
+      "position": "Desarrollador Frontend",
       "url": "https://jesuizdesign.com/",
       "startDate": "2023-1-01",
-      "endDate": "2024-8-01",
-      "totalTime": "[14 meses]",
+      "endDate": "2024-4-30",
+      "totalTime": "(16 meses)",
       "summary": "Ejecuté soluciones en Desarrollo Web (JS, React, Next, PHP, Laravel, Tailwind, SQL, API, Filament, Python, Wordpress, Cloudflare, AWS) y Branding para negocios con sede en Perú, Puerto Rico y USA. Los servicios abordaban principalmente el Desarrollo de Sitios Web, Ecommerce y Aplicaciones Web.",
       "highlights": [
-        "Started the company"
+        ""
       ]
     },
     {
       "name": "Clave Publicitaria",
-      "position": "Desarrollador Wordpress y Diseñador Gráfico",
+      "position": "Desarrollador WP y Diseñador Gráfico",
       "url": "https://clavepublicitaria.com",
-      "startDate": "2022-02-01",
+      "startDate": "2022-1-01",
       "endDate": "2022-12-31",
-      "totalTime": "[11 meses]",
+      "totalTime": "(12 meses)",
       "summary": "Integré nuevos servicios digitales para abordar un nuevo mercado no explorado, donde ejecuté servicios de Desarrollo de Sitios Web (JS, CSS, PHP, SQL, Wordpress) y Diseño de Identidad Visual, complementando los servicios ya establecidos de Imprenta, Gigantografía y Merchandising.",
       "highlights": [
-        "Started the company"
+        ""
       ]
     },
     {
       "name": "Geotop",
-      "position": "Desarrollador Wordpress y Diseñador Gráfico",
+      "position": "Desarrollador WP, Diseñador Gráfico y Marketero",
       "url": "https://geotop.pe/",
-      "startDate": "2021-03-01",
-      "endDate": "2021-12-01",
-      "totalTime": "[8 meses]",
+      "startDate": "2021-1-01",
+      "endDate": "2021-11-30",
+      "totalTime": "(11 meses)",
       "summary": "Diseñé todo el material audiovisual de la empresa a para entornos digitales y físicos. Desarrollé dos nuevas Páginas Web (JS, CSS, PHP, SQL, Wordpress) y optimicé todos los demás sitios web de la empresa. Gestioné todo el diseño gráfico de la empresa, así como también la edición y transmisión de los Webinars mensuales.",
       "highlights": [
-        "Started the company"
+        ""
       ]
     },
     {
@@ -87,11 +88,11 @@
       "position": "Diseñador Gráfico y Supervisor",
       "url": "https://technoglobal.pe",
       "startDate": "2018-04-01",
-      "endDate": "2021-12-31",
-      "totalTime": "[29 meses]",
+      "endDate": "2020-12-31",
+      "totalTime": "(33 meses)",
       "summary": "Ejecuté actividades de diseñador relacionadas principalmente con Redes Sociales, Publicidad, Imprenta y Gigantografía. Luego de 6 meses lideré las actividades como Supervisor del negocio con 3 personas a cargo.",
       "highlights": [
-        "Started the company"
+        ""
       ]
     }
   ],
@@ -387,26 +388,6 @@
       ]
     },
     {
-      "name": "Livewire",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
-    },
-    {
-      "name": "AlpineJS",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
-    },
-    {
       "name": "Tailwind",
       "level": "Basic",
       "keywords": [
@@ -498,6 +479,16 @@
         "Frontend",
         "Backend",
         "Fullstack"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Basic",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
       ]
     },
     {

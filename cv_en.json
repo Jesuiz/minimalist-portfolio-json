@@ -1,13 +1,14 @@
 {
   "basics": {
     "name": "Jesús Ruiz",
-    "label": "Full Stack Developer",
+    "label": "Frontend Developer",
     "image": "/me.png",
     "email": "jesuizmail@gmail.com",
     "phone": "+51 935 035 069",
     "url": "portfolio.jesuizdesign.com",
-    "summary": "Hi, I'm a Junior Full Stack Web Developer with 2 years of experience, specializing in frontend development. My academic background in graphic design enables me to create attractive and functional interfaces using React, Next.js, CSS, and Tailwind. I complement these skills with backend knowledge in PHP, Laravel, and CodeIgniter, which allows me to work with APIs, databases, and MVC architecture. This versatility enables me to participate in various aspects of development, from interface design to server-side implementation.",
-    "summary_2": "I complement my technical profile with strong skills in graphic design, agile development, and WordPress experience. I'm proficient in Figma for creating interfaces and prototypes, ensuring visual consistency and usability across each project. With 4 years of WordPress experience, I can quickly implement landing pages that are ideal for marketing purposes. This versatility allows me to approach projects by combining attractive design with precise technical functionality.",
+    "summary": "I am a Frontend Developer with over 2 years of experience creating visually appealing and functional interfaces using React, Next.js, CSS, and Tailwind. What sets me apart is my designer's eye, backed by my technical training and over 6 years of experience as a Graphic Designer, allowing me to develop products with a polished aesthetic, aligned with UX/UI principles and visual consistency.",
+    "summary_2": "Additionally, I have experience in process automation using tools like Make, Zapier, and n8n, which enables me to streamline workflows and improve efficiency in frontend, backend, and API integration. While my main focus is frontend development, I have also worked with PHP and Laravel, which has given me a better understanding of server-side logic and the ability to collaborate on projects requiring deeper integration.",
+    "summary_3": "I also have experience in digital marketing and WordPress, allowing me to quickly develop MVPs for advertising campaigns and product validation. Thanks to my combination of design, development, and automation, I can approach projects from a comprehensive perspective, creating efficient, scalable, and visually impactful solutions.",
     "location": {
       "address": "",
       "postalCode": "00000",
@@ -38,48 +39,48 @@
       "name": "Paqari Software",
       "position": "Frontend Developer",
       "url": "https://paqari.pe/",
-      "startDate": "2024-1-01",
-      "endDate": "2024-8-01",
-      "totalTime": "[10 meses]",
-      "summary": "I worked on the website's frontend and its API (React, NextJS, SCSS, PHP, Axios, SQL) and maintained the web application (PHP, CodeIgniter, SQL). I developed data capture processes with API data transmission and Hubspot integrations. I implemented landing pages (WordPress) for marketing promotions.",
+      "startDate": "2024-5-01",
+      "endDate": "2025-2-28",
+      "totalTime": "(10 months)",
+      "summary": "I worked on the website's frontend and its API (React, NextJS, SCSS, Axios) and maintained the web application (PHP, CodeIgniter, SQL). I developed data capture processes with API data transmission and Hubspot integrations. I implemented landing pages (WordPress) for marketing promotions.",
       "highlights": [
-        "Started the company"
+        ""
       ]
     },
     {
       "name": "Jesuiz Design",
-      "position": "Developer and Graphic Designer",
+      "position": "Frontend Developer",
       "url": "https://jesuizdesign.com/",
-      "startDate": "2023-01-01",
-      "endDate": "2024-03-01",
-      "totalTime": "[14 meses]",
+      "startDate": "2023-1-01",
+      "endDate": "2024-4-30",
+      "totalTime": "(16 months)",
       "summary": "I delivered Web Development solutions (JS, React, Next, PHP, Laravel, Tailwind, SQL, API, Filament, Python, WordPress, Cloudflare, AWS) and Branding for businesses based in Peru, Puerto Rico, and the USA. Services primarily focused on Website Development, E-commerce, and Web Applications.",
       "highlights": [
-        "Started the company"
+        ""
       ]
     },
     {
       "name": "Clave Publicitaria",
-      "position": "Developer and Graphic Designer",
+      "position": "WP Developer and Graphic Designer",
       "url": "https://clavepublicitaria.com",
-      "startDate": "2022-02-01",
-      "endDate": "2023-12-31",
-      "totalTime": "[11 meses]",
+      "startDate": "2022-1-01",
+      "endDate": "2022-12-31",
+      "totalTime": "(12 months)",
       "summary": "I integrated new digital services to address an unexplored market segment, where I implemented Website Development services (JS, CSS, PHP, SQL, WordPress) and Visual Identity Design, complementing the established Printing, Large Format Printing, and Merchandising services.",
       "highlights": [
-        "Started the company"
+        ""
       ]
     },
     {
       "name": "Geotop",
-      "position": "Developer, Designer and Marketer",
+      "position": "WP Developer, G. Designer and Marketer",
       "url": "https://geotop.pe/",
-      "startDate": "2021-03-01",
-      "endDate": "2021-12-01",
-      "totalTime": "[8 meses]",
+      "startDate": "2021-1-01",
+      "endDate": "2021-11-30",
+      "totalTime": "(11 months)",
       "summary": "I designed all company audiovisual material for both digital and physical environments. I developed two new Websites (JS, CSS, PHP, SQL, WordPress) and optimized all other company websites. I managed all the company's graphic design, as well as the editing and broadcasting of monthly Webinars.",
       "highlights": [
-        "Started the company"
+        ""
       ]
     },
     {
@@ -87,11 +88,11 @@
       "position": "Graphic Designer and Supervisor",
       "url": "https://technoglobal.pe",
       "startDate": "2018-04-01",
-      "endDate": "2021-12-31",
-      "totalTime": "[29 meses]",
+      "endDate": "2020-12-31",
+      "totalTime": "(33 months)",
       "summary": "I carried out designer activities related mainly to Social Media, Advertising, Printing and Gigantography. After 6 months I led the activities as store supervisor with 3 people in charge.",
       "highlights": [
-        "Started the company"
+        ""
       ]
     }
   ],
@@ -378,26 +379,6 @@
       ]
     },
     {
-      "name": "Livewire",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
-    },
-    {
-      "name": "AlpineJS",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
-    },
-    {
       "name": "Tailwind",
       "level": "Basic",
       "keywords": [
@@ -489,6 +470,16 @@
         "Frontend",
         "Backend",
         "Fullstack"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Basic",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
       ]
     },
     {
